@@ -34,7 +34,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href="/CV_Guillermo_Soliz_Nagatoshi.pdf" target="_blank" rel="noopener noreferrer"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Descarga mi CV
