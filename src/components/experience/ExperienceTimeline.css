@@ -1,0 +1,83 @@
+.experience-section {
+  padding: 4rem 2rem;
+  background: radial-gradient(circle at top left, #0a0a0a, #000);
+  color: #e0e0e0;
+  position: relative;
+  z-index: 1;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  font-weight: bold;
+  color: #cba6f7;
+  text-shadow: 0 0 10px #cba6f7;
+}
+
+.timeline {
+  position: relative;
+  margin: 0 auto;
+  padding-left: 2rem;
+  border-left: 3px dashed #cba6f7;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.timeline-icon {
+  position: absolute;
+  left: -2.5rem;
+  top: 0;
+  background: #1a1a1a;
+  border: 2px solid #cba6f7;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 0 12px #cba6f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline-icon img {
+  width: 30px;
+  height: 30px;
+  filter: drop-shadow(0 0 4px #cba6f7);
+}
+
+.timeline-content {
+  padding: 1.5rem;
+  border-radius: 12px;
+  background-color: #111;
+  box-shadow: 0 0 20px rgba(203, 166, 247, 0.3);
+  border: 1px solid #cba6f7;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.timeline-content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 30px rgba(203, 166, 247, 0.6);
+}
+
+.role {
+  display: block;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  color: #f5f5f5;
+}
+
+.period {
+  display: block;
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-bottom: 1rem;
+}
+
+.desc {
+  color: #ddd;
+}

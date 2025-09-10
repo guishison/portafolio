@@ -43,6 +43,10 @@ const skills = [
   { name: "SVN", level: 70, category: "tools" },
   { name: "TypeORM", level: 80, category: "tools" },
   { name: "Mongoose", level: 85, category: "tools" },
+  { name: "Dinatrace", level: 75, category: "tools" },
+  { name: "Grafana", level: 95, category: "tools" },
+  { name: "Postman", level: 95, category: "tools" },
+  { name: "Argo CD", level: 85, category: "tools" },
 
   // 🔹 Otras herramientas
   { name: "VS Code", level: 95, category: "tools" },
