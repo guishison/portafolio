@@ -44,6 +44,21 @@ const projects = [
     ],
     tags: ["NestJS", "Oracle", "Kafka", "Docker", "Kubernetes"],
   },
+  {
+    id: 5,
+    title: "Manejo de infraestructura en la nube",
+    description:
+      "Responsable de la gestión y optimización de la infraestructura en la nube, asegurando alta disponibilidad, escalabilidad y seguridad de los servicios desplegados.",
+    images: [
+      "/projects/Proyecto5_1.jpg",
+      "/projects/Proyecto5_2.png",
+      "/projects/Proyecto5_3.png",
+      "/projects/Proyecto5_4.png",
+      "/projects/Proyecto5_5.png",
+      "/projects/Proyecto5_6.png",
+    ],
+    tags: ["Azure"],
+  },
 ];
 
 export const ProjectsSection = () => {

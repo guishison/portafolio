@@ -23,23 +23,31 @@ export const ExperienceSection = () => {
               <h3>{exp.role} <span className="company">@ {exp.company}</span></h3>
               <span className="location">{exp.location}</span>
               <span className="period">{exp.period}</span>
-              <ul className="responsibilities">
+
+              <div className="section-block">
+                <strong>Responsabilidades:</strong>
                 {exp.responsibilities.map((r, idx) => (
-                  <li key={idx}>{r}</li>
+                  <div key={idx} className="line-item">➤ {r}</div>
                 ))}
-              </ul>
-              <div className="tech-stack">
-                <strong>Tecnologías:</strong> {exp.tech.join(", ")}
               </div>
-              <div className="achievements">
+
+              <div className="section-block">
                 <strong>Logros:</strong>
-                <ul>
-                  {exp.achievements.map((a, idx) => (
-                    <li key={idx}>{a}</li>
+                {exp.achievements.map((a, idx) => (
+                  <div key={idx} className="line-item">✔ {a}</div>
+                ))}
+              </div>
+
+              <div className="tech-stack">
+                <strong>Tecnologías:</strong>
+                <div className="tech-tags">
+                  {exp.tech.map((t, idx) => (
+                    <span key={idx} className="tech-pill">{t}</span>
                   ))}
-                </ul>
+                </div>
               </div>
             </div>
+
           </motion.div>
         ))}
       </div>

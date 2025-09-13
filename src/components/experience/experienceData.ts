@@ -10,6 +10,26 @@ export const experienceData = [
         logo: "/experience/logo-dte.png"
     },
     {
+        company: "FUNDEPCO",
+        role: "Consultor Analista de Sistemas",
+        location: "Santa Cruz, Bolivia",
+        period: "Octubre 2016 – Noviembre 2017",
+        responsibilities: ["Soporte técnico", "Análisis de sistemas", "Capacitación a usuarios", "Documentación de procesos"],
+        achievements: ["Soporte y mantenimiento de software", "Capacitación a usuarios en nuevas funcionalidades", "Documentación de procesos y procedimientos"],
+        tech: ["Php", "MySQL", "JavaScript", "HTML", "CSS"],
+        logo: "/experience/fundepco.png"
+    },
+    {
+        company: "PPARB - Ministerio de Desarrollo Rural y Tierras",
+        role: "Consultor Técnico Informático",
+        location: "Santa Cruz, Bolivia",
+        period: "Junio 2020 – Septiembre 2020",
+        responsibilities: ["Desarrollo de software", "Análisis de sistemas", "Mejoras continuas", "Mantenimiento pagina web"],
+        achievements: ["Creacion de nuevas funcionalidades", "Mejoras en la interfaz de usuario", "Reestructuracion de pagina web"],
+        tech: ["Php", "PostgreSQL", "JavaScript", "HTML", "CSS", "Joomla"],
+        logo: "/experience/pparb.jpg"
+    },
+    {
         company: "Banco Ganadero S.A.",
         role: "Desarrollador de Software",
         location: "Santa Cruz, Bolivia",
