@@ -31,13 +31,32 @@ export const experienceData = [
     },
     {
         company: "Banco Ganadero S.A.",
-        role: "Desarrollador de Software",
+        role: "Desarrollador de Software Senior",
         location: "Santa Cruz, Bolivia",
-        period: "Marzo 2022 – Actualidad",
+        period: "Marzo 2022 – Septiembre 2025",
         responsibilities: ["Desarrollo de microservicios", "Integración con Kafka", "CI/CD con Jenkins", "Liderazgo de equipo", "Coordinación con otros equipos"],
         achievements: ["Autenticación JWT", "Loyalty Program", "Microservicios para Banca Móvil", "Integración con sistemas core bancarios", "Automatización de despliegues"],
         tech: [".Net Core", "Node.js", "MongoDB", "Kafka", "Jenkins", "Azure DevOps", "Docker", "Kubernetes", "Azure", "SOAP"],
         logo: "/experience/bg.png"
     },
-  // Más experiencias...
+    {
+        company: "SunStar Solutions",
+        role: "Senior Developer / Tech Lead",
+        location: "Texas, EE.UU. (Remoto)",
+        period: "Septiembre 2025 – Marzo 2026",
+        responsibilities: ["Arquitectura de microservicios", "Integración de pasarelas de pago", "Geolocalización", "Gestión de paneles solares"],
+        achievements: ["Arquitectura de plataforma core", "Integración de APIs de Google Maps", "Integraciones con Stripe y Plaid"],
+        tech: ["Node.js", "Express", "React.js", "MongoDB", "Stripe", "Plaid", "Google Maps API", "TypeScript", "Microservicios"],
+        logo: "/experience/sunstar.png" // Asumiendo que podrás agregar un logo, se deja ruta base
+    },
+    {
+        company: "Banco Ganadero S.A.",
+        role: "Arquitecto de Software",
+        location: "Santa Cruz, Bolivia",
+        period: "Abril 2026 – Actualidad",
+        responsibilities: ["Arquitectura de sistemas distribuidos", "Gobernanza Tecnológica", "Estrategia DevSecOps", "Evaluación Tecnológica"],
+        achievements: ["Diseño core Billetera Digital Yolo Pago", "Ecosistema transaccional moderno y de baja latencia", "Estandarización de rendimiento y resiliencia"],
+        tech: ["Arquitectura Distribuida", "Microservicios", "DevSecOps", "CI/CD", "Seguridad Bancaria"],
+        logo: "/experience/bg.png"
+    }
 ];

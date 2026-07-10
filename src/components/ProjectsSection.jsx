@@ -59,6 +59,19 @@ const projects = [
     ],
     tags: ["Azure"],
   },
+  {
+    id: 6,
+    title: "Billetera Digital Yolo Pago",
+    description:
+      "Arquitectura y diseño core de la billetera Yolo Pago. Ecosistema transaccional moderno, seguro, de ultra baja latencia y alta concurrencia enfocado en revolucionar la experiencia de pagos digitales.",
+    images: [
+      "/projects/Proyecto6_1.png",
+      "/projects/Proyecto6_2.png",
+      "/projects/Proyecto6_3.png",
+      "/projects/Proyecto6_4.png",
+    ],
+    tags: ["Arquitectura Distribuida", "Microservicios", "Seguridad", "DevSecOps"],
+  },
 ];
 
 export const ProjectsSection = () => {
