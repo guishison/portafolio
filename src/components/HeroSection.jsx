@@ -43,8 +43,8 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            Desarrollador backend especializado en arquitecturas escalables, APIs
-            robustas y optimización de rendimiento. Transformo ideas en
+            Arquitecto de Software y Desarrollador Senior especializado en arquitecturas escalables,
+            APIs robustas y optimización de rendimiento. Transformo ideas en
             soluciones tecnológicas seguras y eficientes.
           </p>
 
